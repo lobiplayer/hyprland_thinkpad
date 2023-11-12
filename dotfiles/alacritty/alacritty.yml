@@ -1,0 +1,84 @@
+font:
+  size: 16.0
+
+window:
+  padding:
+    x: 25
+    y: 25
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 0.7
+
+
+colors:
+  # Default colors
+  primary:
+    background: '0x232627'
+    foreground: '0xfcfcfc'
+
+    dim_foreground: '0xeff0f1'
+    bright_foreground: '0xffffff'
+    dim_background: '0x31363b'
+    bright_background: '0x000000'
+
+  # Normal colors
+  normal:
+    black: '0x232627'
+    red: '0xed1515'
+    green: '0x11d116'
+    yellow: '0xf67400'
+    blue: '0x1d99f3'
+    magenta: '0x9b59b6'
+    cyan: '0x1abc9c'
+    white: '0xfcfcfc'
+
+  # Bright colors
+  bright:
+    black: '0x7f8c8d'
+    red: '0xc0392b'
+    green: '0x1cdc9a'
+    yellow: '0xfdbc4b'
+    blue: '0x3daee9'
+    magenta: '0x8e44ad'
+    cyan: '0x16a085'
+    white: '0xffffff'
+
+  # Dim colors
+  dim:
+    black: '0x31363b'
+    red: '0x783228'
+    green: '0x17a262'
+    yellow: '0xb65619'
+    blue: '0x1b668f'
+    magenta: '0x614a73'
+    cyan: '0x186c60'
+    white: '0x63686d'
+
+# BEGIN ACE
+colors:
+  primary:
+    background: '#2e2a31'
+    foreground: '#bcbabe'
+  cursor:
+    text:       '#2e2a31'
+    cursor:     '#bcbabe'
+  normal:
+    black:      '#2e2a31'
+    red:        '#d8137f'
+    green:      '#17ad98'
+    yellow:     '#dc8a0e'
+    blue:       '#796af5'
+    magenta:    '#bb60ea'
+    cyan:       '#149bda'
+    white:      '#bcbabe'
+  bright:
+    black:      '#838085'
+    red:        '#d8137f'
+    green:      '#17ad98'
+    yellow:     '#dc8a0e'
+    blue:       '#796af5'
+    magenta:    '#bb60ea'
+    cyan:       '#149bda'
+    white:      '#f5f4f7'
+# END ACE
